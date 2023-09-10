@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-btn-primary {
+  background-color: #00b96b !important;
+}
+
+.ant-btn-primary:hover {
+  background-color: #00a15e !important;
+}
+
+.ant-steps
+  .ant-steps-item-custom
+  > .ant-steps-item-container
+  > .ant-steps-item-icon
+  > .ant-steps-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-form-item-label {
+  text-align: unset !important;
+}
+
+body {
+  min-height: 100vh;
+  background: white;
+}
+.rdg {
+  background-color: #fff !important;
+  color: #000;
+  border-width: 0.5px;
+
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-radius: 6px;
+}
+.rdg-cell {
+  background-color: #fff !important;
+  color: #000;
+
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: #d9d9d9;
+}
+.rdg-cell[role="columnheader"] {
+  background-color: #fbfbfb !important;
+  color: #000;
+  border-width: 0.5px;
+
+  border-style: solid;
+  border-color: #d9d9d9;
+}
+
+.rdg-cell input {
+  background-color: #fff !important;
+  color: #000;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: #d9d9d9;
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #f5222d;
+}
+
+.status.active {
+  background: #52c41a;
+  animation: blink 1s linear infinite;
+}
+
+.status.blink-faster {
+  animation: blink 0.2s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.table-transparent table,
+.table-transparent .ant-table {
+  color: #fff;
+  background-color: transparent;
+  border: 0.5px solid #e9ecef !important;
+}
+
+.table-transparent th {
+  color: #fff !important;
+  background: transparent !important;
+  border: 0;
+}
+
+.table-transparent td {
+  background: transparent;
+  border: 0;
+}
+
+.table-transparent th,
+.table-transparent td {
+  border-bottom: 1px solid #e9ecef;
+}
+
+.table-transparent tbody + tbody {
+  border-top: 2px solid #e9ecef;
+}
+
+.table-transparent tbody tr:hover td,
+.table-transparent tbody tr:hover th {
+  background-color: rgba(0, 0, 0, 0.075) !important;
+}
+
+.ant-switch:not(.ant-switch-disabled, .ant-switch-checked) {
+  background: rgba(0, 0, 0, 0.45) !important;
+}
+
+.ant-form-item {
+  margin-bottom: 10px !important;
+}
+.ant-table-wrapper {
+  overflow: hidden;
+}
