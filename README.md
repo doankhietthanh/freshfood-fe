@@ -33,8 +33,25 @@ Features:
 1. Connect to Metamask
    ![Connect to Metamask](/docs/images/web-connect-to-metamask.jpeg)
 
-1. Home page:
-   ![Home page](/docs/images/web-home-page.png)
+2. Home page:
+   ![Home page](/docs/images/web-home-page.jpeg)
+
+3. Product page:
+   ![Product page](/docs/images/web-product-page.jpeg)
+
+- Transfer product:
+  ![Transfer product](/docs/images/web-transfer-product.png)
+- Verify product:
+  ![Verify product](/docs/images/web-verify-product.png)
+
+4. Dashboard page:
+   ![Dashboard page](/docs/images/web-dashboard-page.jpeg)
+
+5. Device page (to setup IoT devices):
+   ![Device page](/docs/images/web-device-page.jpeg)
+
+6. Tracking page:
+   ![Tracking page](/docs/images/web-tracking-page.jpeg)
 
 #### Mobile Application
 
