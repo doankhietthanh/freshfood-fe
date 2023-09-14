@@ -26,6 +26,11 @@ Features:
   - Connect to Blockchain
   - Collection location of product and storage location into Blockchain
 
+### Requirements
+
+- Install Metatmask Extensions (on Web) or Metatmask Application (on Android/iOS)
+- Add Testnest Sepolia (production) or Testnest Hardhat (development)
+
 ### Capture
 
 #### Webiste Application
@@ -55,7 +60,17 @@ Features:
 
 #### Mobile Application
 
-#### IoT Hardware
+![Mobile application](/docs/images/mobile.png)
+
+#### IoT Devices
+
+- 1x ESP32
+- 1x Model GPS Neo 6M
+- 1x Button
+- 2x LED
+- 1x PIN Lithium 18650
+
+![IoT Devices](/docs/images/schematic-iot-devices.png)
 
 ### Prerequisites
 
@@ -69,16 +84,16 @@ Features:
 git clone https://github.com/doankhietthanh/freshfood_contract_.git
 ```
 
-- [Back-end](https://github.com/phamtanminhtien/freshfood-be)
+- [Back-end](https://github.com/doankhietthanh/freshfood-be)
 
 ```shell
-git clone https://github.com/phamtanminhtien/freshfood-be.git
+git clone https://github.com/doankhietthanh/freshfood-be.git
 ```
 
-- [Website Application](https://github.com/phamtanminhtien/freshfood-fe)
+- [Website Application](https://github.com/doankhietthanh/freshfood-fe)
 
 ```shell
-git clone https://github.com/phamtanminhtien/freshfood-fe.git
+git clone https://github.com/doankhietthanh/freshfood-fe.git
 ```
 
 - [Mobile Application](https://github.com/phamtanminhtien/freshfood_app)
@@ -92,6 +107,8 @@ git clone https://github.com/phamtanminhtien/freshfood_app.git
 ```shell
 git clone https://github.com/doankhietthanh/freshfood-iot.git
 ```
+
+# Setup for Website
 
 ### Install packages
 
